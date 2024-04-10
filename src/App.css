@@ -1,4 +1,18 @@
-.App {
+@media (min-width:1024px) {
+  .desktop{
+    display:block;
+  }
+  
+}
+@media (max-width:1023px) {
+  .desktop{
+  display: none;
+}
+  
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +49,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
